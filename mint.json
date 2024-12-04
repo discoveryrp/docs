@@ -1,16 +1,13 @@
 {
   "name": "Discovery RP Guide",
   "site_description": "Un guide complet pour découvrir toutes les fonctionnalités et règles du serveur Discovery RP.",
-  "theme": {
-    "primary_color": "#1E90FF",
-    "sidebar": "light",
-    "font": {
-      "body": "Inter, sans-serif",
-      "code": "Fira Code, monospace"
-    }
+  "theme": "venus", 
+  "colors": {
+    "primary": "#1E90FF",
+    "secondary": "#FFD700"
   },
   "logo": "/assets/logo.png",
-  "favicon": "/assets/favicon.ico",
+  "favicon": "/assets/favicon.png", 
   "search": {
     "enabled": true,
     "placeholder": "Rechercher dans le guide..."
@@ -54,13 +51,12 @@
       }
     ]
   },
+  "analytics": {
+    "provider": "ga4", 
+    "tracking_id": "G-XXXXXXXXXX"
+  },
   "feedback": {
     "enabled": true,
     "type": "emoji"
-  },
-  "analytics": {
-    "enabled": true,
-    "provider": "google",
-    "tracking_id": "G-XXXXXXXXXX"
   }
 }
