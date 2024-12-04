@@ -1,19 +1,27 @@
 {
   "name": "Discovery RP Guide",
-  "site_description": "Guide complet pour profiter pleinement du serveur Discovery RP.",
+  "site_description": "Un guide complet pour découvrir toutes les fonctionnalités et règles du serveur Discovery RP.",
   "theme": {
     "primary_color": "#1E90FF",
-    "sidebar": "light"
+    "sidebar": "light",
+    "font": {
+      "body": "Inter, sans-serif",
+      "code": "Fira Code, monospace"
+    }
   },
-  "logo": "/path/to/logo.png",
-  "favicon": "/path/to/favicon.ico",
+  "logo": "/assets/logo.png",
+  "favicon": "/assets/favicon.ico",
+  "search": {
+    "enabled": true,
+    "placeholder": "Rechercher dans le guide..."
+  },
   "navigation": [
     {
       "group": "Introduction",
       "pages": ["index.md"]
     },
     {
-      "group": "Règles",
+      "group": "Règles du Serveur",
       "pages": ["rules/index.md"]
     },
     {
@@ -21,8 +29,38 @@
       "pages": ["beginners/index.md"]
     },
     {
-      "group": "Jobs",
+      "group": "Jobs et Activités",
       "pages": ["jobs/index.md"]
+    },
+    {
+      "group": "Aide Technique",
+      "pages": ["support/index.md"]
+    },
+    {
+      "group": "Communauté",
+      "pages": ["community/index.md"]
     }
-  ]
+  ],
+  "footer": {
+    "copyright": "© 2024 Discovery RP. Tous droits réservés.",
+    "links": [
+      {
+        "name": "Discord",
+        "url": "https://discord.gg/yourserverlink"
+      },
+      {
+        "name": "Site officiel",
+        "url": "https://yourserverwebsite.com"
+      }
+    ]
+  },
+  "feedback": {
+    "enabled": true,
+    "type": "emoji"
+  },
+  "analytics": {
+    "enabled": true,
+    "provider": "google",
+    "tracking_id": "G-XXXXXXXXXX"
+  }
 }
