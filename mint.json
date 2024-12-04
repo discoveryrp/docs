@@ -1,56 +1,12 @@
-{
-  "name": "Discovery RP Guide",
-  "site_description": "Un guide complet pour découvrir toutes les fonctionnalités et règles du serveur Discovery RP.",
-  "theme": "venus",
-  "colors": {
-    "primary": "#1E90FF"
-  },
-  "logo": "/assets/logo.png",
-  "favicon": "/assets/favicon.png",
-  "search": {
-    "enabled": true,
-    "placeholder": "Rechercher..."
-  },
-  "navigation": [
-    {
-      "group": "Introduction",
-      "pages": ["index.md"]
-    },
-    {
-      "group": "Règles",
-      "pages": ["rules/index.md"]
-    },
-    {
-      "group": "Débutants",
-      "pages": ["beginners/index.md"]
-    },
-    {
-      "group": "Jobs et Activités",
-      "pages": ["jobs/index.md"]
-    },
-    {
-      "group": "Aide Technique",
-      "pages": ["support/index.md"]
-    }
-  ],
-  "footer": {
-    "links": [
-      {
-        "name": "Discord",
-        "url": "https://discord.gg/yourserverlink"
-      },
-      {
-        "name": "Site officiel",
-        "url": "https://yourserverwebsite.com"
-      }
-    ]
-  },
-  "feedback": {
-    "enabled": true,
-    "type": "emoji"
-  },
-  "analytics": {
-    "provider": "ga4",
-    "tracking_id": "G-XXXXXXXXXX"
-  }
-}
+"name": "Your Company"
+"logo": {
+  "light": "/logo/light.svg",
+  "dark": "/logo/dark.svg",
+  "href": "https://yourcompany.com"
+},
+"favicon": "/favicon.svg",
+"colors": {
+  "primary": "#2AB673",
+  "light": "#55D799",
+  "dark": "#117866",
+},
